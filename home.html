@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="minireset.css" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/animations.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"
+    ></script>
+    <script defer type="text/javascript" src="./main.js"></script>
+
+    <title>Ashvin portfolio</title>
+  </head>
+  <body>
+    <div
+      id="wallpaper"
+      class="wallpaper"
+      data-image="./images/cool_abstract.jpg"
+    ></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="images/profile.jpg"
+            srcset="
+              images/profile.jpg  1x,
+              <!-- images/alex@2x.jpg 2x,
+              images/alex@3x.jpg 3x -->
+            "
+            width="150"
+            height="150"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">Hi, I'm Ashvin</h1>
+        <p class="job">House Keeping/Car Painter</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            I am a skilled worker with expertise in both cleaning and car design. With experience in car painting and interior repair, I have a keen eye for detail and a passion for delivering high-quality work.
+             I am also an expert in cleaning, having worked as a housekeeper and public area attendant.
+             My work ethic is strong, and I am committed to delivering excellent results through hard work and dedication.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="">
+            Download CV
+          </a>
+
+          <ul class="social">
+            <li>
+              <a href="https://www.instagram.com/seewoonundun1/"target=_blank>
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <!-- next page  -->
+              <a href="https://www.facebook.com/seewoonundun.ashvin"target=_blank>
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:seewoonundunashvin@gmail.com">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>&copy;2023. All rights reserved Tushil-G</p>
+      </footer>
+    </div>
+    <noscript>
+      <style type="text/css">
+        .wallpaper {
+          animation-name: zoomOut;
+        }
+        .picture {
+          animation-name: dropIn;
+        }
+      </style>
+    </noscript>
+  </body>
+</html>
+
